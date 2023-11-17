@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewpor<link rel="stylesheet" href="index.css" />t" content="width=device-width, initial-scale=1.0" />
+    <title>Menu 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <!-- <div class="navBar">
+      <nav>
+          <div class="logo">
+              <a href="#home">
+                  <img src="" alt="">
+                  <h1>Portofolio</h1>
+              </a>
+          </div>
+          <div class="sideNav">
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#skill">My Skill</a></li>
+              </ul>
+          </div>
+      </nav>
+  </div> -->
+  
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="menu">
+      <nav>
+        <a href="#about" style="animation-delay: 0.2s">About</a>
+        <a href="#skill" style="animation-delay: 0.3s">Skill</a>
+        <a href="#resume" style="animation-delay: 0.4s">Resume</a>
+        <a href="#contact" style="animation-delay: 0.5s">Contact</a>
+      </nav>
+    </div>
+
+     <!--hero section -->
+    
+     <section class="hero-section" id="home">
+      <div class="hero-container">
+          <div class="judul">
+            <!-- <div class="typewriter">
+                <h1>The cat and the hat.</h1>
+              </div> -->
+              <h1>Hi <span></span></h1>
+              <p>I Always learning to be Programmer Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit rerum dolore cum aliquid, rem reiciendis doloremque illo, quo, exercitationem consequuntur atque esse quas. Dolor facere sequi at alias pariatur.</p>
+              <div class="btn">
+                  <a href="https://github.com/muhammaddffa?tab=repositories" target="_blank">My Repo</a>
+              </div>
+          </div>
+          <img src="./WhatsApp_Image_2023-10-29_at_22.24.00-removebg-preview (1).png" alt="developer_male">
+      </div>
+  </section>
+
+  <!--about us-->
+    <section id="about">
+      <div class="about-me">
+          <ul> 
+              <li>About me</li>
+          </ul>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum porro aliquam nam rem rerum laborum. Quia eos minus blanditiis perferendis ullam, minima modi? Ipsam, ab unde odit rem possimus odio! <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, minima est dignissimos at minus ad recusandae! Libero, magni voluptates sed obcaecati, temporibus dignissimos exercitationem quidem perspiciatis quos placeat aperiam doloribus! <br><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis cum velit modi quod, quaerat voluptatibus ipsum! Quaerat, molestiae quis debitis iure incidunt aut repudiandae obcaecati quia magnam impedit ab. Necessitatibus. </p>
+      </div>
+  </section>
+
+  
+  <section id="skill">
+      <div class="my-skill">
+          <ul>
+              <li>My Skill</li>
+          </ul>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum porro aliquam nam rem rerum laborum. Quia eos minus blanditiis perferendis ullam, minima modi? Ipsam, ab unde odit rem possimus odio! <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, minima est dignissimos at minus ad recusandae! Libero, magni voluptates sed obcaecati, temporibus dignissimos exercitationem quidem perspiciatis quos placeat aperiam doloribus! <br><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis cum velit modi quod, quaerat voluptatibus ipsum! Quaerat, molestiae quis debitis iure incidunt aut repudiandae obcaecati quia magnam impedit ab. Necessitatibus. </p>
+      </div>
+  </section>
+  
+  <section id="resume">
+      <div class="resume-tgs">
+          <ul>
+              <li>Resume</li>
+          </ul>
+          <p>Red Hat adalah Perusahaan opensource yang bergerak di bidang software yaitu sistem operasi linux yang mengacu ke dalsm bidang edukasi yang sekarang ini bernama RHEL (Red Had Enterprise Linux) Red Had mempunyai salah satu program yaitu program CSR (dhsvsjsi) .CSR adalah kegiatan yang memfokuskan untuk para community dibidang akademisi untuk menjembatani antara industri, akademik, dan institusi. Red had mempunyai software yang sekarang dinamakan Red Had Academy...</p>
+          <a href="https://docs.google.com/document/d/1UQ_GaUfxtISfOGwueoXJEspagip-yJCnvXXjsBSO95Y/edit">
+              <button>Read More</button>
+          </a>
+      </div>
+  </section>  
+
+  <section id="contact">
+    <div class="contact-container">
+        <h2>Hubungi Saya</h2>
+        <form>
+            <label for="name">Nama</label>
+            <input type="text" id="name ">
+            <label for="email">Email</label>
+            <input type="email" id="email ">
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+            <button id="btn-contact"  type="submit">Kirim</button>
+        </form>
+    </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+        <h3>Portofolio</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/muhm_dffa/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 Portofolio.</p>
+    </div>
+</footer>
+  </body>
+</html>
