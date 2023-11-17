@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Tema Pertanian</title>
+    <script src="./index.js"></script>
+  </head>
+
+<style>
+ @import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+  
+.container {
+    display: inline-block; 
+    background-size: 100%; 
+  }
+
+  .input-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label,
+.input-group textarea {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 30%;
+  padding: 12px 2px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+}
+
+
+
+
+</style>
+
+      <body
+        style="
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+        "
+      >
+    <header
+      style="
+        background-color: #1e5128;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+      "
+    >
+      <div style="display: flex; align-items: center">
+        <img
+          src="pertanian2.jpeg"
+          alt=""
+          style="max-width: 100px; margin-left: 20px; margin-right: 20px; border-radius: 3%;"
+        />
+        <button
+          style="
+            background-color: #4caf50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 6px;
+            cursor: pointer;
+            border-radius: 6px;
+          "
+        >
+          <a
+            href="#home"
+            style="
+              color: white;
+              text-decoration: none;
+              margin-top: 20px;
+              font-weight: bold;
+              cursor: pointer;
+            "
+          >
+            Home
+          </a>
+        </button>
+
+        <button
+          style="
+            background-color: #4caf50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 6px;
+            cursor: pointer;
+            border-radius: 6px;
+          "
+        >
+          <a
+            href="#about"
+            style="
+              color: white;
+              text-decoration: none;
+              /* margin-left: 20px;
+            margin-top: 20px; */
+              font-weight: bold;
+              cursor: pointer;
+            "
+          >
+            About me
+          </a>
+        </button>
+        <button
+          style="
+            background-color: #4caf50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 6px;
+            cursor: pointer;
+            border-radius: 6px;
+          "
+        >
+          <a
+            href="#contact"
+            style="
+              color: white;
+              text-decoration: none;
+              /* margin-left: 20px;
+              margin-top: 20px; */
+              font-weight: bold;
+              cursor: pointer;
+              
+            "
+          >
+            Contact
+          </a>
+        </button>
+      </div>
+      
+      <h1
+        style="
+          font-size: 36px;
+          margin-bottom: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+        "
+      >
+        Selamat Datang di Mern Tani
+      </h1>
+    </header>
+
+    <div class="container">
+      <img
+        style="z-index: -1; position: absolute; width: 100%;"
+        src="p1.jpg"
+        alt=""
+      />
+
+      <h2 style="color: #f0f0f0;">Keuntungan Memakai Layanan Kami</h2>
+      <ul>
+        <li style="font-size: large; color: #f0f0f0">
+          <strong> Peningkatan Pendapatan </strong><br />Berkesempatan
+          mendapatkan komisi atas setiap aktivitas yang dilakukan
+        </li>
+        <li style="font-size: large; color: #f0f0f0">
+          <strong> Mendapatkan Komisi </strong><br />Semakin banyak petani dan
+          luas lahan yang tergabung,<br />semakin besar pendapatan yang
+          diperoleh
+        </li>
+      </ul>
+      <h2 style="color: #f0f0f0;"> Produk Kami </h2>
+      <p style="font-size: 18px; line-height: 1.6; color: #f0f0f0">
+        Kami menawarkan berbagai produk pertanian seperti buah-buahan, sayuran,
+        dan produk susu segar.
+        <i>
+          <strong style="color: #f0f0f0">
+            Semua produk kami ditanam dengan cinta dan perawatan yang
+            teliti. 
+          </strong>
+        </i>
+      </p>
+      <!-- <img
+        style="max-width: 14%; height: auto; margin-right: 20px"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiq3cySXbgZMRL9W0Ub7XL0Lu-r0bbYCoGwtTcGbYw54HkkPmZfolEPtKifWpx4KxgGEM&usqp=CAU"
+        alt="Pemandangan Pertanian"
+      />
+      <img
+        style="max-width: 14%; height: auto; margin-right: 20px "
+        src="https://www.pertanianku.com/wp-content/uploads/2018/09/Pertanian-Sayur-Kegiatan-yang-Tak-Tergerus-Zaman.jpg"
+        alt="Pemandangan Pertanian"
+      />
+      <img
+        style="max-width: 17%; height: auto; margin-right: 20px"
+        src="https://akcdn.detik.net.id/visual/2017/06/02/7e6f8bad-fae5-4731-8593-a1b97b2c1560_169.jpg?w=650"
+        alt="Pemandangan Pertanian"
+      /> -->
+    
+<figure class="snip1584"><img src="https://akcdn.detik.net.id/visual/2017/06/02/7e6f8bad-fae5-4731-8593-a1b97b2c1560_169.jpg?w=650" alt="sample87"/>
+  <figcaption>
+    <h3>Mern</h3>
+    <h5>Tani</h5>
+  </figcaption><a href="#"></a>
+</figure>
+
+<figure class="snip1584"><img src="https://daridesa.com/wp-content/uploads/2020/12/16-Cara-Menanam-Sawi-Yang-Tepat-Dengan-Hasil-Yang-Memuaskan.jpg" alt="sample120"/>
+  <figcaption>
+    <h3>Mern</h3>
+    <h5>Tani</h5>
+  </figcaption><a href="#"></a>
+</figure>
+
+   
+    <h2 style="color: #f0f0f0;">Data Produk Pertanian</h2>
+    <table border="1" style="width: 20%; border-collapse: separate; border-color: white;">
+      <thead>
+        <tr>
+          <th style="color: #f0f0f0;" rowspan="2">Nama Produk</th>
+          <th style="color: #f0f0f0;" colspan="2">Harga dan Stok</th>
+        </tr>
+        <tr>
+          <th style="color: #f0f0f0;">Harga</th>
+          <th style="color: #f0f0f0;">Stok Tersedia</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="color: #f0f0f0;">Apel</td>
+          <td style="color: #f0f0f0;">Rp 2000000</td>
+          <td style="color: #f0f0f0;">100 kg</td>
+        </tr>
+        <tr>
+          <td style="color: #f0f0f0;">Pisang</td>
+          <td style="color: #f0f0f0;">Rp 3000000</td>
+          <td style="color: #f0f0f0;">200 kg</td>
+        </tr>
+        <tr>
+          <td style="color: #f0f0f0;">Terong</td>
+          <td style="color: #f0f0f0;">Rp 3000000</td>
+          <td style="color: #f0f0f0;">200 kg</td>
+        </tr>
+        <!-- Tambahkan baris-baris lainnya sesuai kebutuhan -->
+      </tbody>
+    </table>
+    
+
+    <div class="pukimak">
+      <h2 class="opotoh">Kontak Kami</h2>
+      <form action="proses_form.php" method="post">
+        <div class="input-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Alamat Email:</label>
+          <input type="email" id="email" name="email" placeholder="contoh@example.com" required>
+        </div>
+        <div class="input-group">
+          <label for="phone">Nomor Telepon:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon" required>
+        </div>
+        <div class="input-group">
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" rows="4" cols="50" required></textarea>
+        </div>
+        <div class="input-group">
+          <label for="jenis-kelamin">Jenis Kelamin:</label>
+          <select id="jenis-kelamin" name="jenis-kelamin">
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+          </select>
+        </div>
+        <input type="submit" value="Kirim">
+      </form>
+    </div>
+    
+
+</div>
+
+
+  
+    <footer
+      style="
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 25px;
+        background-color: #4e9f3d;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+      "
+    >
+      &copy; 2023 Mern Tani
+    </footer>
+  </body>
+</html>
